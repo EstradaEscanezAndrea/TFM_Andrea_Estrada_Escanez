@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encabezado y Columnas</title>
+  <link rel="stylesheet" href="miestilo.css">
+  <script src="misFunciones.js" defer></script>
+</head>
+<body>
+
+  <!-- Encabezado fijo -->
+  <div class="encabezado">
+    <div class="titulo">El error como clave del aprendizaje en álgebra avanzada</div>
+    <div class="autor">| Andrea Estrada Escánez</div>
+  </div>
+
+  <!-- Contenido debajo del encabezado -->
+  <div class="fondo-gradient">
+  
+    <!-- Bloque superior: títulos/introducción -->
+    <div class="contenedor">
+      <div class="columna">
+        <h2>Software y códigos</h2>
+        <p>En esta sección se recogen los recursos computacionales desarrollados para el TFM.</p>
+
+        <p>El script en R contiene todo el análisis estadístico de los datos de encuesta al alumnado: tratamiento de variables, generación de gráficos, estudio de correlaciones y elaboración de perfiles de pensamiento matemático.</p>
+
+        <p>Por su parte, el cuaderno en SageMath implementa un algoritmo de agrupamiento cooperativo que permite formar grupos equilibrados en función de distintos criterios académicos.</p>
+
+        <p>Ambos recursos se acompañan de ejemplos y están pensados para ser reutilizables y adaptables en otros contextos didácticos.</p>
+</div>
+      <div class="espacio"></div>
+      <div class="columna">
+        <h2>Bases de datos</h2>
+        <p>
+            Esta sección recoge los conjuntos de datos utilizados en el TFM, tanto para el análisis de errores en exámenes como para la encuesta al alumnado.<br><br>
+            Se ofrecen en formatos <code>.csv</code> y <code>.RData</code> para facilitar su reutilización y análisis con distintos lenguajes estadísticos.<br><br>
+            <strong>Los archivos incluyen:</strong><br>
+            <li>Datos codificados de los errores cometidos en Ecuaciones Algebraicas (varios cursos).</li><br>
+            <li>Resultados completos de la encuesta realizada al estudiantado.</li><br>
+            <li>Conjuntos ya tratados y preparados para análisis con R.</li>
+          </p>          
+      </div>
+    </div>
+  
+    <!-- Bloque inferior: archivos reales -->
+    <div class="contenedor" style="margin-top: 40px;">
+      <div class="columna">
+        <h3>Archivos disponibles</h3>
+        <ul class="lista-descargas">
+          <li>
+            <a href="ErrorClaveAprendizajeAlgebra_AndreaEstradaEscanez.R" download>
+              Descargar código en R
+              <span class="icono-descarga">⇩</span>
+            </a>
+          </li>
+          <li>
+            <a href="erroresEcuacionesAlgebraicas.ipynb" download>
+              Descargar código de SageMath
+              <span class="icono-descarga">⇩</span>
+            </a>
+          </li>
+        </ul>          
+      </div>
+      <div class="espacio"></div>
+      <div class="columna">
+        <h3>Datos utilizados</h3>
+        <ul class="lista-descargas">
+            <li>
+                <a href="https://forms.gle/WxRcwj5uzy1BW8fY6" target="_blank" rel="noopener">
+                    Enlace a los resultados de la encuesta realizada
+                    <span class="icono-descarga">⇩</span>
+                  </a>                  
+              </a>
+            </li>
+                <li class="descarga-menu">
+                  <span class="nombre-archivo">Informe de errores</span>
+                  <div class="menu-trigger">⋯</div>
+                  <div class="menu-opciones">
+                    <a href="erroresEcuacionesAlgebraicas.csv" download>Descargar como .csv</a>
+                    <a href="erroresEcuacionesAlgebraicas.RData" download>Descargar como .RData</a>
+                  </div>
+                </li>
+              
+                <li class="descarga-menu">
+                  <span class="nombre-archivo">Resultados de la encuesta codificados</span>
+                  <div class="menu-trigger">⋯</div>
+                  <div class="menu-opciones">
+                    <a href="resultadosEncuesta.csv" download>Descargar como .csv</a>
+                    <a href="resultadosEncuesta.RData" download>Descargar como .RData</a>
+                  </div>
+                </li>
+          </ul>
+      </div>
+    </div>
+  
+  </div>  
+
+</body>
+</html>
