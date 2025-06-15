@@ -12,21 +12,7 @@ Este trabajo combina el análisis teórico de la teoría de Galois con herramien
 
 ---
 
-## 📁 Estructura del repositorio
-
-datos/ \n
-├── erroresEcuacionesAlgebraicas.csv \n
-├── erroresEcuacionesAlgebraicas.RData \n
-├── resultadosEncuesta.csv \n
-└── resultadosEncuesta.RData \n
-
-codigo/ \n
-├── ErrorClaveAprendizajeAlgebra_AndreaEstradaEscanez.R \n
-└── ErrorClaveAprendizajeAlgebra_TrabajoCoop_AndreaEstradaEscanez..ipynb \n
-
-web/ \n
-├── index.html \n
-└── estilos.css \n
+<pre> ## 📁 Estructura del repositorio ``` datos/ ├── erroresEcuacionesAlgebraicas.csv ├── erroresEcuacionesAlgebraicas.RData ├── resultadosEncuesta.csv └── resultadosEncuesta.RData codigo/ ├── ErrorClaveAprendizajeAlgebra_AndreaEstradaEscanez.R └── ErrorClaveAprendizajeAlgebra_TrabajoCoop_AndreaEstradaEscanez.ipynb web/ ├── index.html └── estilos.css ``` </pre>
 
 ---
 
