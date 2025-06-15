@@ -14,19 +14,19 @@ Este trabajo combina el análisis teórico de la teoría de Galois con herramien
 
 ## 📁 Estructura del repositorio
 
-📂 datos/
+datos/
 ├── erroresEcuacionesAlgebraicas.csv
-├── resultadosEncuesta.csv
 ├── erroresEcuacionesAlgebraicas.RData
+└── resultadosEncuesta.csv
 
-📂 codigo/
+codigo/
 ├── analisis_errores.R
 ├── analisis_encuesta.R
-├── agrupamiento_cooperativo.sagews
+└── agrupamiento_cooperativo.sagews
 
-📂 web/
+web/
 ├── index.html
-├── estilos.css
+└── estilos.css
 
 ---
 
